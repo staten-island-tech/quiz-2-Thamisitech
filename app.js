@@ -5,18 +5,15 @@
 // 3. Then change the scores to show different winners. Don't forget to take into account there might be a draw (the same average score)
 
 
-const teamA1 = 89;
-const teamA2 = 120;
-const teamA3 = 103;
+const teamA = 89 + 120 + 103;
 
-let = numberOfGames = 3;
+let numberOfGames = 3;
 
-const teamB1 = 116;
-const teamB2 = 94;
-const teamB3 = 123;
+const teamB = 116 + 94 + 123;
 
-let teamAAvg =  (teamA1 * teamA2 * teamA3) / numberOfGames;
-let teamBAVG = (teamB1 * teamB2 * teamB3) / numberOfGames;
+
+let teamAAvg =  (teamA) / numberOfGames;
+let teamBAVG = (teamB) / numberOfGames;
 
 if (teamAAvg > teamBAVG) {
     console.log("Team A wins!")
